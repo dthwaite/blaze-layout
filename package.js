@@ -21,11 +21,11 @@ Package.onTest(function(api) {
 
 function configure(api) {
   api.versionsFrom('1.0');
-  api.use('blaze@3.0.0');
+  api.use('blaze@3.0');
   api.use('templating');
   api.use('reactive-dict');
   api.use('underscore');
-  api.use('jquery');
+  api.use('jquery@3.0');
   api.use('tracker');
 
   api.addFiles('lib/client/namespace.js', 'client');
